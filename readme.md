@@ -1,4 +1,4 @@
-# Sha512
+# Sha512 [![Build Status](https://travis-ci.com/jindada1/SHA512.svg?branch=master)](https://travis-ci.com/jindada1/SHA512)
 
 `Sha512` is an open source implementation of the sha-512 hash function in solidity.
 
