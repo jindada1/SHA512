@@ -1,0 +1,28 @@
+{
+  "name": "sha512",
+  "version": "1.0.0",
+  "description": "Implementation of the sha-512 hash function in solidity",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jindada1/SHA512.git"
+  },
+  "keywords": [
+    "solidity",
+    "sha512"
+  ],
+  "author": "Kris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jindada1/SHA512/issues"
+  },
+  "homepage": "https://github.com/jindada1/SHA512#readme",
+  "dependencies": {
+    "truffle": "^5.3.7"
+  }
+}

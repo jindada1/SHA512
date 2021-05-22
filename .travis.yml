@@ -1,0 +1,18 @@
+dist: trusty
+sudo: false
+group: beta
+language: node_js
+node_js:
+  - "12"
+  - "14"
+
+cache:
+  directories:
+    - node_modules
+
+jobs:
+  fast_finish: true
+  include:
+    - stage: tests
+      name: "Unit tests"
+      script: npm run test

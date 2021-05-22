@@ -16,4 +16,13 @@ contract('Demo', (accounts) => {
         // sha-512 online tool: https://emn178.github.io/online-tools/sha512.html
         assert.equal(response, rightAnswer, `wrong answer: ${response}`);
     });
+
+    it(`gas used by ${script}`, async () => {
+        const contractInstance = await Demo.deployed();
+
+        const response = await contractInstance.SHA512.estimateGas(testcase);
+        console.log(`  ${response} gas used`)
+
+        assert.notEqual(response, 0);
+    });
 });
